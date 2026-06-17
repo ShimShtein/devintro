@@ -1,7 +1,6 @@
 import random
 
 number = random.randint(1, 10)
-print("The random number is", number)
 
 for attempt in range(8):
     guessed_num = int(input("Try to guess the number:"))
